@@ -1,34 +1,35 @@
 ## Extreme Programming [^1]
 
-[^1]: source from wipipedia.
+#### Spirit
 
-	#### Spirit
-		Five valeurs . 
-		+ Communication
-		+ Respect
-		+ Simplicité
-		+ Courage
-		+ feedback
+5 valeurs.
 
-		A cela on ajoute 13 pratiques 
-		+ Client sur site
-		+ Jeu du planning 
-		+ Integration continue
-		+ Petites livraisons
-		+ Rythme soutenable
-		+ Tests de fonctionnels/ de recette
-		+ Tests unitaires
-		+ Conception Simple
-		+ Utilisation de métaphores
-		+ Remaniement du code
-		+ Appropriation collective du code
-		+ Convention de nommage 
-		+ Programmation en binôme
-		+ Ne pas ajouter de fonctionnalité plus tôt que prévu
-		+ Optimiser seulement à la fin	
+	+ Communication
+	+ Respect
+	+ Simplicité
+	+ Courage
+	+ feedback
+
+A cela on ajoute 13 pratiques 
+
+	+ Client sur site
+	+ Jeu du planning 
+	+ Integration continue
+	+ Petites livraisons
+	+ Rythme soutenable
+	+ Tests de fonctionnels/ de recette
+	+ Tests unitaires
+	+ Conception Simple
+	+ Utilisation de métaphores
+	+ Remaniement du code
+	+ Appropriation collective du code
+	+ Convention de nommage 
+	+ Programmation en binôme
+	+ Ne pas ajouter de fonctionnalité plus tôt que prévu
+	+ Optimiser seulement à la fin	
 
 
-	#### Cycle
+#### Cycle
 
 	XP repose sur des cycles rapides de développement (des itérations de quelques semaines) dont les étapes sont les suivantes :
 
@@ -58,7 +59,7 @@
 
 
 
-
+[^1]: source from wipipedia.
 
 and remind you that 
 
