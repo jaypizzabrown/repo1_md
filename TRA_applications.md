@@ -8,9 +8,9 @@ Here is a simple flow chart:
 ```mermaid
 graph TD;
     IMEX Core<-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    IMEX Core-->C;
+    B-->petra;
+    C-->petra;
 ```
 
 | Applications | composants | A | B | C |
