@@ -1,16 +1,17 @@
 
+## Environments 
 
+#### Schema application involved
 
-| Enviroments | IMEX Eur/Asie Core | allNETT/Netcom core   | Petra zOS | Petra Java BatchNetcom |
-| --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+Here is a simple flow chart:
 
-| A | B | C | D | E |
-| :---: | :---: | :---: | :---: | :---: |
-| aaa | bbb | ccc | ddd | eee |
-| aaa1 | bbb1 | ccc1 | ddd1 | eee1 |
-
+```mermaid
+graph TD;
+    IMEX Core<-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 | Applications | composants | A | B | C |
 | :---: | :---: | :---: | :---: | :---: |
