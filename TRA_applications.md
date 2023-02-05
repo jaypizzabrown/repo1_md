@@ -7,7 +7,7 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    IMEX Core<-->B;
+    IMEX Core-->B;
     IMEX Core-->C;
     B-->petra;
     C-->petra;
