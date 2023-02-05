@@ -17,7 +17,6 @@
 | allNETT | JBOSS (Java Ear) Linux | Windows server | Oracle (OCP) | --- |
 | Imex Europe Core Zos| CICS Programs/transactions | DB2 | Websphere(IMEX Java Ear) | Websphere(IMEX Viever Java Ear) |
 | Imex Asie Core Zos| CICS Programs/transactions | DB2 | Websphere(IMEX Java Ear) | Websphere(IMEX Viever Java Ear) |
-
 | **PETRA Webservice** _LIMITcheck_ | CICS Programs | Java Jar | --- |  --- |
 | **PETRA Webservice** *GEDListerPiecesJointes* | CICS Programs | Java Jar | --- |  --- |
 | **PETRA Webservice** *GEDLRecheidentiTiers* | CICS Programs | Java Jar | --- |  --- |
