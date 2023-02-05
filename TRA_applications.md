@@ -3,7 +3,7 @@
 
 #### Schema application involved
 
-Here is a simple flow chart:
+Here is a simple flow chart1:
 
 ```mermaid
 graph TD;
@@ -12,6 +12,19 @@ graph TD;
     B-->petra;
     C-->petra;
 ```
+
+Here is a simple flow chart1:
+
+```mermaid
+graph TD;
+    Imex_WS<-->allNETT;
+    allNETT<-->ImexBackoffice;
+    allNETT<-->Petra_WS;
+    Editrade<-->allNETT;    
+```
+
+
+
 
 | Applications | composants | A | B | C |
 | :---: | :---: | :---: | :---: | :---: |
