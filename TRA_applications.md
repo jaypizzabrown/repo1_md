@@ -45,6 +45,7 @@ exemple de code
 sequenceDiagram
     participant Alice
     participant Bob
+    participant John
     Alice->>John: Hello John, how are you?
     loop Healthcheck
         John->>John: Fight against hypochondria
