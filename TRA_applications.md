@@ -38,6 +38,11 @@ bon sinon tout va bien
 ```
 bon sinon tout va bien :)
 ```
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+
 
 exemple de code 
 `exemple de code` 
