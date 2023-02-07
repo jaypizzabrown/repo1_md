@@ -5,13 +5,13 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    A-->#1;
-    B-->#1;
-    X<-->#1;
-    C-->#1;
-    D-->#1;
-    #1-->2;
-    #1-->3;
+    A-->1;
+    B-->1;
+    X<-->1;
+    C-->1;
+    D-->1;
+    1-->2;
+    1-->3;
 ```
 
 Here is a second simple flow chart:
@@ -35,9 +35,9 @@ graph TD;
 
 bon sinon tout va bien
 
-...
+```
 bon sinon tout va bien :)
-...
+```
 
 exemple de code 
 `exemple de code` 
