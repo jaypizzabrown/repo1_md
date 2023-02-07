@@ -49,6 +49,7 @@ sequenceDiagram
 ---
 title: Animal example
 ---
+```mermaid
 classDiagram
     note "From Duck till Zebra"
     Animal <|-- Duck
@@ -72,10 +73,12 @@ classDiagram
         +bool is_wild
         +run()
     }
+```
 
 exemple de code 
 `exemple de code` 
 
+```mermaid
 sequenceDiagram
     participant Alice
     participant Bob
@@ -88,3 +91,4 @@ sequenceDiagram
     John-->>Alice: Great!
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
+```
