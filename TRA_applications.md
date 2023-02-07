@@ -1,46 +1,55 @@
 
-## Environments 
+#mermaid diagram
 
-#### Schema application involved
-
-Here is a simple flow chart1:
+Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    IMEXCore<-->B;
-    IMEXCore-->C;
-    B-->petra;
-    C-->petra;
+    A-->#1;
+    B-->#1;
+    X<-->#1;
+    C-->#1;
+    D-->#1;
+    #1-->2;
+    #1-->3;
 ```
 
-Here is a simple flow chart1:
+Here is a second simple flow chart:
 
 ```mermaid
 graph TD;
-    allNETT<-->ImexBackoffice;
-    Imex_WS<-->allNETT;
-    Petra_(WS)<-->allNETT;
-    Editrade(GED)<-->allNETT;
+    frontoffice<-->MQ_Backoffice;
+    CICS_WS_1<-->frontoffice;
+    CICS_WS_2<-->frontoffice;
+    Java_WS<-->frontoffice;
+    
 ```
+#table
 
-| Applications | composants | A | B | C |
+| blabla | bliblibli | bloubloublpou | etpuisquoi | amityville |
 | :---: | :---: | :---: | :---: | :---: |
-| allNETT | JBOSS (Java Ear) Linux | Windows server | Oracle (OCP) | --- |
-| Imex Europe Core Zos| CICS Programs/transactions | DB2 | Websphere(IMEX Java Ear) | Websphere(IMEX Viever Java Ear) |
-| Imex Asie Core Zos| CICS Programs/transactions | DB2 | Websphere(IMEX Java Ear) | Websphere(IMEX Viever Java Ear) |
-| **PETRA Webservice** _LIMITcheck_ | CICS Programs | Java Jar | --- |  --- |
-| **PETRA Webservice** *GEDListerPiecesJointes* | CICS Programs | Java Jar | --- |  --- |
-| **PETRA Webservice** *GEDLRecheidentiTiers* | CICS Programs | Java Jar | --- |  --- |
-| **PETRA Batch input** *IMEX Europe* | Batch Cobol Programs | Petra DB2 |  --- |  --- |
-| **PETRA Batch input** *IMEX Asie* | Batch Cobol Programs | Petra DB2 |  --- |  --- |
-| **PETRA Batch ouput** IMEX Europe | CRE, CRI, 3D, Reports etc... | --- |  --- |  --- |
-| **PETRA Batch ouput** IMEX Europe | CRE, CRI, 3D, Reports etc... | --- |  --- |  --- |
-| **PETRA BOX** | CICS Transactions/Programs | DB2 | MQ | --- |
-| **EDITRADE Webservice** *GEDPostDocument* | CICS Programs | Java Jar | --- |  --- |
-| **EDITRADE Webservice** *GEDGetDocument* | CICS Programs | Java Jar | --- |  --- |
+| aaaaa | sdsqdqsdq | dsqdsqdsqdsqd | Oracle  | --- |
+| dqdsqdsqddc | sdsdsdsd | nosql | tomcat | jjjjjkkj |
+
+
 
 bon sinon tout va bien
 
 ...
-bon sinon tout va bien
+bon sinon tout va bien :)
 ...
+
+exemple de code 
+`exemple de code` 
+
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
