@@ -19,7 +19,7 @@ Here is a simple flow chart1:
 graph TD;
     allNETT<-->ImexBackoffice;
     Imex_WS<-->allNETT;
-    Petra_WS<-->allNETT;
+    Petra_(WS)<-->allNETT;
     Editrade(GED)<-->allNETT;
 ```
 
