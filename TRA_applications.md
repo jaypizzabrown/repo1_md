@@ -17,14 +17,11 @@ Here is a simple flow chart1:
 
 ```mermaid
 graph TD;
-    Imex_WS<-->allNETT;
     allNETT<-->ImexBackoffice;
-    allNETT<-->Petra_WS;
-    Editrade<-->allNETT;    
+    Imex_WS<-->allNETT;
+    Petra_WS<-->allNETT;
+    Editrade(GED)<-->allNETT;
 ```
-
-
-
 
 | Applications | composants | A | B | C |
 | :---: | :---: | :---: | :---: | :---: |
@@ -34,14 +31,16 @@ graph TD;
 | **PETRA Webservice** _LIMITcheck_ | CICS Programs | Java Jar | --- |  --- |
 | **PETRA Webservice** *GEDListerPiecesJointes* | CICS Programs | Java Jar | --- |  --- |
 | **PETRA Webservice** *GEDLRecheidentiTiers* | CICS Programs | Java Jar | --- |  --- |
-
-
 | **PETRA Batch input** *IMEX Europe* | Batch Cobol Programs | Petra DB2 |  --- |  --- |
 | **PETRA Batch input** *IMEX Asie* | Batch Cobol Programs | Petra DB2 |  --- |  --- |
 | **PETRA Batch ouput** IMEX Europe | CRE, CRI, 3D, Reports etc... | --- |  --- |  --- |
 | **PETRA Batch ouput** IMEX Europe | CRE, CRI, 3D, Reports etc... | --- |  --- |  --- |
-
 | **PETRA BOX** | CICS Transactions/Programs | DB2 | MQ | --- |
-
 | **EDITRADE Webservice** *GEDPostDocument* | CICS Programs | Java Jar | --- |  --- |
 | **EDITRADE Webservice** *GEDGetDocument* | CICS Programs | Java Jar | --- |  --- |
+
+bon sinon tout va bien
+
+...
+bon sinon tout va bien
+...
